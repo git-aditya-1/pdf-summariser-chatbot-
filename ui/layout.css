@@ -1,0 +1,13 @@
+import streamlit as st
+
+def header():
+    st.title("📄 Resume RAG Chatbot")
+    st.caption("Ask questions grounded only in the uploaded document")
+
+def sidebar():
+    with st.sidebar:
+        st.header("📤 Upload")
+        return st.file_uploader("Upload PDF", type=["pdf"])
+
+def chat_input():
+    return st.chat_input("Ask a question from the document")

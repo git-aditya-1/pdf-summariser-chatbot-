@@ -1,0 +1,29 @@
+/* Background */
+.main {
+    background-color: #0e1117;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #00ffcc;
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #00ffcc;
+    color: black;
+    border-radius: 10px;
+    padding: 0.6rem 1.2rem;
+    font-weight: bold;
+}
+
+/* Text input */
+.stTextInput input {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Chat bubbles */
+.stChatMessage {
+    border-radius: 10px;
+}
